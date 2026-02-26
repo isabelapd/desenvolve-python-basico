@@ -9,7 +9,7 @@ idade_Cris = int(input())
 # True se forem maior de idade
 # False caso contrário
 
-pode_entrar = idade_Juliana >= 18 or idade_Cris >= 18
+pode_entrar = idade_Juliana >= 18 and idade_Cris >= 18
 
 #saída
 print (pode_entrar)
